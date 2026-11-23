@@ -47,7 +47,7 @@
     <!-- cat fact -->
     <q-card class="my-card">
       <q-card-section>
-        <div class="text-h6">Činjenica o mačkama</div>
+        <div class="text-h6">Click for meow</div>
       </q-card-section>
 
       <q-card-section>
@@ -62,7 +62,7 @@
       <q-card-actions align="left">
         <q-btn
           color="orange"
-          label="Nova faktualna"
+          label="Meow"
           :disable="catLoading"
           @click="loadCat"
         />
