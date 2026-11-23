@@ -30,6 +30,19 @@ const routes = [
       {
         path: 'registracija',
         component: () => import('../pages/RegistracijaPage.vue')
+      },
+      // --- New Test Pages ---
+      {
+        path: 'test_brojac',
+        component: () => import('../pages/TestBrojacPage.vue')
+      },
+      {
+        path: 'test_niz',
+        component: () => import('../pages/TestNizPage.vue')
+      },
+      {
+        path: 'test_zbroj',
+        component: () => import('../pages/TestZbrojPage.vue')
       }
     ]
   },
