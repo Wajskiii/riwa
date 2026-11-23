@@ -40,6 +40,13 @@ const routes = [
         path: 'test_niz',
         component: () => import('../pages/TestNizPage.vue')
       },
+      { 
+        path: 'random', component: () => import('../pages/RandomPage.vue') 
+      },
+      {
+        path: 'dontjest',
+        component: () => import('../pages/DontJestLad.vue')
+      },
       {
         path: 'test_zbroj',
         component: () => import('../pages/TestZbrojPage.vue')
